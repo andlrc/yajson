@@ -1,0 +1,11 @@
+SIMPLE JSON VALIDATOR WRITTEN WITH LEX/YACC
+-------------------------------------------
+
+This is a very simple example showing how to write a parser with LEX and YACC.
+This is made who is interested in knowing how this works, but thinks the
+intermediate entry level is to steep.
+
+- ``yajson.c'' contains ``main'' and calls ``yyparse'' which kicks in the
+  parsing.
+- ``yajson.lx.l'' is LEX grammar.
+- ``yajson.g.y'' is the YACC grammar.
